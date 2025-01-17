@@ -12,6 +12,7 @@
 
         // creating a dynamic paragraph element in the dom and setting attributes for the paragraph tags
         let mainParagraph = document.createElement("p");
+
         mainParagraph.setAttribute("id", "mainParagraph");
         mainParagraph.setAttribute("class", "mt-3");
 
@@ -31,11 +32,12 @@
         let Article = document.createElement("article");
         let ArticleParagraph = `<p id="ArticleParagraph" class="mt-3"> This is my article paragraph</p>`
 
-        ArticleParagraph.setAttribute("class", "container");
-        Article.innerHtml = ArticleParagraph;
-        // appending the new created article tag to the body tag inside the document
-        DocumentBody.appendChild(Article);
+        Article.setAttribute("class", "container");
+        Article.innerHTML = ArticleParagraph;
+        // appending the new created article tag to the body tag inside the document:
 
+        DocumentBody.appendChild(Article);
+        console.log("article is appended");
 
 
     }
