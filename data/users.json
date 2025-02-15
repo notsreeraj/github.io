@@ -1,0 +1,23 @@
+{
+  "users" : [
+    {
+      "DisplayName" : "Bruce Wayne",
+      "EmailAddress" : "bruce@gotham.com",
+      "UserName"    : "Batman",
+      "Password"    : "123456"
+    },
+    {
+      "DisplayName" : "Peter Parker",
+      "EmailAddress" : "peter@queens.com",
+      "UserName"    : "Spiderman",
+      "Password"    : "123456"
+    },
+    {
+      "DisplayName" : "Admin",
+      "EmailAddress" : "admin@dc.com",
+      "UserName"    : "admin",
+      "Password"    : "password"
+    }
+]
+
+}

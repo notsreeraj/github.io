@@ -5,7 +5,7 @@
   <meta name="viewport"
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Contacts</title>
+  <title>Edit Contact</title>
 
   <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.min.css">
@@ -18,7 +18,7 @@
 
 </header>
 <main class="container">
-  <h1 class ="mb-5">Contact Us</h1>
+  <h1 class ="mb-5">Edit Contact</h1>
 
   <form class="col-lg-6 col-md-10 col-sm-10 mb-4">
 
@@ -46,20 +46,14 @@
       <span id="emailAddress-error"  class="text-danger"></span>
     </div>
 
-    <div class="form-check mb-3">
-      <input type="checkbox" class="form-check-input me-2"
-             name="subscribeCheckbox" id="subscribeCheckbox">
-      <label class="form-check-label" for="subscribeCheckbox">Subscribe to Contact List</label>
-    </div>
 
     <div>
-      <button id="sendButton" type="submit" class="btn btn-primary">Submit</button>
-      <button id="cancelButton" type="reset" class="btn btn-secondary">Cancel</button>
+      <button id="editButton" type="submit" class="btn btn-primary"><i class="fa-regular fa-pen-to-square"></i>Submit</button>
+      <button id="cancelButton" type="reset" class="btn btn-secondary m-1"><i class="fa-solid fa-ban m-2"></i>Cancel</button>
     </div>
 
   </form>
-  <div class ="col-lg-4 col-md-6"><a href = "contact-list.html" class ="btn btn-outline-primary
- mt-4">Show Contact list</a></div>
+
 
 </main>
 
@@ -72,9 +66,8 @@
 
 
 <script src ="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-<script src ="scripts/namespace.js"></script>
+<script src="scripts/namespace.js"></script>
 <script src ="scripts/contact.js"></script>
 <script src ="scripts/app.js"></script>
-
 </body>
 </html>
